@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fashion Factory</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            div img{
+                max-width: 100%;
+                max-height: 50%;
+            }
+
+            .cont{
+                display: flex;
+                justify-content: center;
+                background-color: rgba(0, 0, 0);
+                padding: 2%;
+
+            }
+
+            #heading{
+                font-size: 12vw;
+                color: rgba(255, 255, 255);
+            }
+
+            #outfit{
+                background-color: white;
+                color: black;
+                padding: 2%;
+                margin-top: 2%;
+            }
+            #outfit h1{
+                font-size: 3rem;
+            }
+
+            .clothing{
+                margin: 5% 0;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding: 0 1%;
+                /* width: 15%; */
+            }
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+            .container {
+                text-align: center;
+            }
+            .footer{
+                font-size: 2rem;
+                color: white;
+                text-align: center;
+                background-color: black;
+                padding: 5% 0;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <img class="mySlides" src="background.jpg">
+            <img class="mySlides" src="background1.jpg">
+            <img class="mySlides" src="background2.jpg">
+            <img class="mySlides" src="background3.jpg">
+        </div>
+
+        <div class="cont">
+            <h1 id='heading'>Fashion Factory</h1>
+        </div>
+
+        <div id="outfit">
+            <h1>Outfits</h1>
+            <div class="clothing">
+                <div class="card">
+                    <img src="whiteshirt.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>LEVIS</b></h4>
+                      <p>White Shirt</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="frock.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>BIBA</b></h4>
+                      <p>Elite Wear</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="hoodie.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>ARROW</b></h4>
+                      <p>Hoodie</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="black.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>BIBA</b></h4>
+                      <p>Midi</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="red.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>ALLEN SOLLY</b></h4>
+                      <p>Party Wear</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="outfit">
+            <h1>Footwear</h1>
+            <div class="clothing">
+                <div class="card">
+                    <img src="sneakers.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>Adidas</b></h4>
+                      <p>Sneakers</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="black_sneakers.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>Reebok</b></h4>
+                      <p>Outdoor Shoes</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="black_formal.jpeg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>Bata</b></h4>
+                      <p>Formal Shoes</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="flips.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>BIBA</b></h4>
+                      <p>Flips</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="crocs.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>Mochi</b></h4>
+                      <p>Crocs</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>Copyrights @ bryan</p>
+        </div>
+
+    </body>
+</html>
