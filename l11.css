@@ -1,0 +1,67 @@
+body
+{
+    /*background-color: bisque;#*/
+
+}
+#heading
+{
+    background-image:url('coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#head{
+    font-family: 'tangerine',serif;
+    font-size: 12vw;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    padding-top: 5%;
+    color: maroon;
+}
+#intro-section
+{
+    padding: 4% 15%;
+    background-color: rgb(100,16,16);
+    color: white;font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#lead
+{font-size: 'quicksand',serif;color: white;font-size: 2rem;}#coffee-heading{
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    font-family: 'Quicksand', serif;
+    font-size: 3rem;
+}
+.fav-coffee{
+    padding: 4% 25%;
+}
+.fav-coffee img{
+    padding: 5% 0;
+    max-width: 100%;
+}
+.coffee-names{
+    font-family: 'Tangerine', serif;
+    font-size: 4rem;
+}
+.coffee-info{
+    font-family: 'Quicksand', serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+#footer{
+    text-align: center;
+    padding-top: 3%;
+    background-color: rgb(110, 16, 16);
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', serif;
+    line-height: 3rem;
+}
+#credit{
+    background-color: rgb(110, 16, 16);
+    color: white;
+    text-align: right;
+    line-height: 1rem;
+    font-size: 1rem;
+    padding-right: 1%;
+}
